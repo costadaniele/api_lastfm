@@ -1,4 +1,6 @@
-header#main-header {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.main-header {
     width: 100%;
     height: 60px;
     background: #000;
@@ -8,5 +10,43 @@ header#main-header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.Header form input {
+    border-radius: 5px;
+    width: 400px;
+    height: 2rem;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.Header form button {
+    background: #bd1e1e;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    height: 2rem;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: all 800ms;
+    font-size: 15px;
+
+}
+
+.Header form button:hover {
+    background: #000;
+    color: #bd1e1e;
 }
 

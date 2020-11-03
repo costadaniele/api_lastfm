@@ -1,5 +1,5 @@
 .last-list{
-    max-width: 700px;
+    width: 300px;
     margin: 20px auto 0;
     padding: 0 20px;
 }
@@ -38,25 +38,4 @@
 .last-list article a:hover {
     background: #bd1e1e;
     color: #fff;
-}
-
-.last-list .actions {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
-.last-list .actions button {
-    padding: 8px;
-    border-radius: 2px;
-    border: 0;
-    background: #000;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.last-list .actions button:hover {
-    opacity: 0.9;
 }
